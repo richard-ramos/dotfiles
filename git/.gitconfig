@@ -1,0 +1,41 @@
+[user]
+	name = Richard Ramos
+	email = info@richardramos.me
+
+
+[github]
+  user = richard-ramos
+
+[core]
+  editor = nvim
+
+[alias]
+  # List ignored files
+  ignored = ls-files \
+    --others \
+    --ignored \
+    --exclude-standard
+
+  # List contributors
+  contributors = shortlog \
+    --summary \
+    --email \
+    --numbered
+
+  find-branch = !sh -c \"git branch -a | grep -v remotes | grep $1 \"
+
+[color]
+  ui = true
+  grep = auto
+
+[commit]
+  verbose = true
+
+[grep]
+  lineNumber = true
+
+[push]
+  default = current
+
+[fetch]
+  prune = true
