@@ -1,9 +1,9 @@
 #!/bin/bash
 
+dotfilesDir=$(pwd)
+
 # Up from scripts dir
 cd ..
-
-dotfilesDir=$(pwd)
 
 function linkDotfile {
   orig="${dotfilesDir}/${1}"
