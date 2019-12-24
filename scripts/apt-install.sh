@@ -18,7 +18,7 @@ install htop
 install nmap
 install openvpn
 install tmux
-install nvim
+install neovim
 install build-essential
 install gpg
 install keepassxc
