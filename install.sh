@@ -8,5 +8,7 @@
 # Get all upgrades
 # sudo apt upgrade -y
 
+sudo apt autoremove -y
+
 # See our bash changes
 source ~/.bashrc
