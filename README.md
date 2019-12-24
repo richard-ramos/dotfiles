@@ -1,5 +1,4 @@
 ```bash
-sudo add-apt-repository universe multiverse
 sudo apt update
 sudo apt install git
 
