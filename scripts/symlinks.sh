@@ -31,6 +31,8 @@ function linkDotfile {
   ln -s ${orig} ${dest}
 }
 
+mkdir -p ~/.config/nvim/
+
 #           orig                dest
 linkDotfile tmux/.tmux.conf    .tmux.conf
 linkDotfile nvim/init.vim      .config/nvim/init.vim
