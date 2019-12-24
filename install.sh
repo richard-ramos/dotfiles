@@ -2,11 +2,11 @@
 
 ./scripts/apt-install.sh
 ./scripts/docker.sh
-./scripts/gitrepos.sh
+./scripts/misc.sh
 ./scripts/symlinks.sh
 
 # Get all upgrades
-# sudo apt upgrade -y
+sudo apt upgrade -y
 
 sudo apt autoremove -y
 
