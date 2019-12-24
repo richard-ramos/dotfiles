@@ -7,24 +7,31 @@ sudo apt install -y apt-transport-https
 sudo apt update
 sudo apt install -y code
 rm microsoft.gpg
-# ln -s $(pwd)/../vsc_settings.json $HOME/.config/Code/User/settings.json
 
 function install {
   name="${1}"
   code --install-extension ${name} --force
 }
 
-install batisteo.vscode-django
-install bibhasdn.django-html
-install emmanuelbeziat.vscode-great-icons
-install HookyQR.beautify
-install jolaleye.horizon-theme-vscode
-install killalau.vscode-liquid-snippets
-install liviuschera.noctis
-install ms-python.python
-install ms-vscode-remote.remote-containers
+install kamud.vscode-theme-onedark                                                                                                                                                         
+install CoenraadS.bracket-pair-colorizer
+install dbaeumer.vscode-eslint
+install donjayamanne.githistory
+install eamodio.gitlens
+install Equinusocio.vsc-material-theme
+install esbenp.prettier-vscode
+install Gruntfuggly.todo-tree
+install jebbs.plantuml
+install JuanBlanco.solidity
+install kosz78.nim
+install ms-vscode.cpptools
 install ms-vscode.Go
-install neilding.language-liquid
-install streetsidesoftware.code-spell-checker
-install vscode-icons-team.vscode-icons
-install zxh404.vscode-proto3
+install octref.vetur
+install PKief.material-icon-theme
+install rust-lang.rust
+install tintinweb.graphviz-interactive-preview
+install tintinweb.solidity-visual-auditor
+install tintinweb.vscode-inline-bookmarks
+install tintinweb.vscode-solidity-flattener
+install wayou.vscode-todo-highlight
+install zhuangtongfa.Material-theme
