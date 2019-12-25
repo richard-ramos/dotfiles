@@ -13,38 +13,28 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'sheerun/vim-polyglot'
+Plug 'xero/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
-
-Plug 'xero/nerdtree'
+Plug 'junegunn/gv.vim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'itchyny/lightline.vim'
 Plug 'mhinz/vim-startify'
-
 Plug 'matze/vim-move'
-Plug 'junegunn/gv.vim'
-
 Plug 'roxma/vim-tmux-clipboard'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'melonmanchan/vim-tmux-resizer'
+Plug 'Yggdroot/LeaderF'
+Plug 'edkolev/tmuxline.vim'
 
 call plug#end()
 
 
 
+" Disable random quotes in startify
+let g:startify_custom_header = []
 
-
-
-
-
-
-
-
-
-
-
-
-
+" Disable compatibility with old vi
 set nocompatible
 
 " security
@@ -60,10 +50,12 @@ set noswapfile
 
 " fuzzy find
 set path+=**
+
 " lazy file name tab completion
 set wildmode=longest,list,full
 set wildmenu
 set wildignorecase
+
 " ignore files vim doesnt use
 set wildignore+=.git,.hg,.svn
 set wildignore+=*.aux,*.out,*.toc
@@ -80,9 +72,6 @@ set wildignore+=*.swp,.lock,.DS_Store,._*
 set ignorecase
 set smartcase
 set infercase
-
-" the /g flag on :s substitutions by default
-"set gdefault <<--- need to break this habit
 
 " make backspace behave in a sane manner
 set backspace=indent,eol,start
@@ -121,21 +110,6 @@ let mapleader=","
 " coffee pasta
 set clipboard^=unnamedplus
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 " show matching brackets/parenthesis
 set showmatch
 
@@ -143,7 +117,7 @@ set showmatch
 set shortmess+=I
 
 " hide mode display
-"set noshowmode
+set noshowmode
 
 " syntax highlighting
 syntax on
@@ -167,7 +141,6 @@ set foldlevelstart=99
 
 " highlight cursor
 set cursorline
-"set cursorcolumn
 
 " show invisibles
 set list
@@ -187,5 +160,10 @@ let g:netrw_browse_split=4
 let g:netrw_winsize=25
 
 
+" NERDTree
+nmap <leader>o :NERDTreeToggle<cr>
 
-
+" LeaderF
+let g:Lf_PreviewInPopup = 1
+let g:Lf_WindowPosition = 'popup'
+let g:Lf_ShortcutF = "<leader>ff"
