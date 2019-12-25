@@ -13,25 +13,20 @@ function install {
   code --install-extension ${name} --force
 }
 
-install kamud.vscode-theme-onedark                                                                                                                                                         
-install CoenraadS.bracket-pair-colorizer
+install kamud.vscode-theme-onedark    
+install zhuangtongfa.Material-theme
+install PKief.material-icon-theme
 install dbaeumer.vscode-eslint
+install esbenp.prettier-vscode
 install donjayamanne.githistory
 install eamodio.gitlens
-install Equinusocio.vsc-material-theme
-install esbenp.prettier-vscode
+install CoenraadS.bracket-pair-colorizer
+install wayou.vscode-todo-highlight
 install Gruntfuggly.todo-tree
-install jebbs.plantuml
-install JuanBlanco.solidity
-install kosz78.nim
+install tintinweb.vscode-inline-bookmarks
 install ms-vscode.cpptools
 install ms-vscode.Go
-install octref.vetur
-install PKief.material-icon-theme
+install kosz78.nim
 install rust-lang.rust
-install tintinweb.graphviz-interactive-preview
+install JuanBlanco.solidity
 install tintinweb.solidity-visual-auditor
-install tintinweb.vscode-inline-bookmarks
-install tintinweb.vscode-solidity-flattener
-install wayou.vscode-todo-highlight
-install zhuangtongfa.Material-theme
