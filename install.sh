@@ -2,15 +2,28 @@
 
 ./scripts/apt-install.sh
 ./scripts/docker.sh
-./scripts/misc.sh
-./scripts/symlinks.sh
 ./scripts/neovim.sh
 ./scripts/guake.sh
+./scripts/misc.sh
+./scripts/symlinks.sh
 
 # Get all upgrades
-sudo apt upgrade -y
+read -p "Install vscode? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    ./scripts/vscode/sh
+fi
 
-sudo apt autoremove -y
+# Get all upgrades
+read -p "Upgrade OS? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    sudo apt upgrade -y
+    sudo apt autoremove -y
+fi
+
 
 # See our bash changes
 source ~/.bashrc
