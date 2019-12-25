@@ -12,7 +12,7 @@ read -p "Install vscode? " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-    ./scripts/vscode/sh
+    ./scripts/vscode.sh
 fi
 
 # Get all upgrades
