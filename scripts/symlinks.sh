@@ -36,7 +36,7 @@ mkdir -p ~/.config/Code/User/
 
 #           orig                  dest
 linkDotfile tmux/.tmux.conf      .tmux.conf
-linkDotfile nvim/init.vim        .config/nvim/init.vim
+linkDotfile neovim/init.vim        .config/nvim/init.vim
 linkDotfile git/.gitconfig       .gitconfig
 linkDotfile bash/.bash_aliases   .bash_aliases
 linkDotfile vscode/settings.json .config/Code/User/settings.json
