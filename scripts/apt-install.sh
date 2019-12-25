@@ -21,7 +21,6 @@ install build-essential
 install gpg
 install keepassxc
 install lm-sensors
-install guake
 install fonts-firacode
 install net-tools
 install fonts-noto-color-emoji
