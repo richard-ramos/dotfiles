@@ -2,9 +2,9 @@
 
 ./scripts/apt-install.sh
 ./scripts/docker.sh
-./scripts/neovim.sh
 ./scripts/guake.sh
 ./scripts/misc.sh
+./scripts/neovim.sh
 ./scripts/symlinks.sh
 
 # Get all upgrades
