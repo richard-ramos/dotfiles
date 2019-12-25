@@ -16,9 +16,7 @@ function install {
 install curl
 install htop
 install nmap
-install openvpn
 install tmux
-install neovim
 install build-essential
 install gpg
 install keepassxc
