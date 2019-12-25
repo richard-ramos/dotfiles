@@ -26,3 +26,4 @@ install lm-sensors
 install guake
 install fonts-firacode
 install net-tools
+install fonts-noto-color-emoji
