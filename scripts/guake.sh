@@ -12,3 +12,5 @@ guake --restore-preferences=../guake/guake.conf
 
 cd ..
 rm -Rf ./guake-repo
+
+guake &
