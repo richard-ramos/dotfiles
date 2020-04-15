@@ -1,6 +1,7 @@
 [user]
 	name = Richard Ramos
 	email = info@richardramos.me
+	signingkey = 80D4B01265FDFE8F
 
 
 [github]
@@ -30,6 +31,7 @@
 
 [commit]
   verbose = true
+  gpgsign = true
 
 [grep]
   lineNumber = true
