@@ -26,6 +26,8 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'melonmanchan/vim-tmux-resizer'
 Plug 'Yggdroot/LeaderF'
 Plug 'edkolev/tmuxline.vim'
+Plug 'preservim/nerdcommenter'
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
@@ -167,3 +169,7 @@ nmap <leader>o :NERDTreeToggle<cr>
 let g:Lf_PreviewInPopup = 1
 let g:Lf_WindowPosition = 'popup'
 let g:Lf_ShortcutF = "<leader>ff"
+
+" NERDCommenter
+filetype plugin on
+
