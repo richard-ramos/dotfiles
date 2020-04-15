@@ -1,10 +1,10 @@
 #!/bin/bash
+
 sudo apt remove neovim -y
 sudo rm -Rf /usr/bin/nvim
 
-wget --quiet https://github.com/neovim/neovim/releases/latest/download/nvim.appimage --output-document nvim
+curl -LO https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
+chmod u+x nvim.appimage
+sudo mv ./nvim.appimage /usr/bin/nvim
 
-chmod +x nvim
-sudo chown root:root nvim
-
-sudo mv nvim /usr/bin
+pip3 install neovim
