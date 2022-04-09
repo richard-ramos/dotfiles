@@ -1,7 +1,7 @@
 [user]
 	name = Richard Ramos
 	email = info@richardramos.me
-	signingkey = 80D4B01265FDFE8F
+	signingkey = info@richardramos.me
 
 
 [github]
@@ -25,13 +25,19 @@
 
   find-branch = !sh -c \"git branch -a | grep -v remotes | grep $1 \"
 
+  hash = rev-parse HEAD
+
+  nuclear = clean -x -d -f
+
+  oops = commit --no-edit --amend
+
 [color]
   ui = true
   grep = auto
 
 [commit]
   verbose = true
-  gpgsign = true
+	gpgsign = true
 
 [grep]
   lineNumber = true

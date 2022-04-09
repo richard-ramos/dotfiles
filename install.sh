@@ -6,7 +6,7 @@
 ./scripts/misc.sh
 ./scripts/neovim.sh
 ./scripts/symlinks.sh
-
+./scripts/tig.sh
 # Get all upgrades
 read -p "Install vscode? " -n 1 -r
 echo

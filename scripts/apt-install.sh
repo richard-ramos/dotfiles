@@ -23,4 +23,5 @@ install keepassxc
 install lm-sensors
 install fonts-firacode
 install net-tools
+install direnv powertop
 install fonts-noto-color-emoji

@@ -1,7 +1,5 @@
-{                                                                                                                                                                                  
-     "workbench.colorTheme": "One Dark Pro",
-     "window.zoomLevel": 2,
-     "[javascript]": {
+{
+    "[javascript]": {
          "editor.defaultFormatter": "esbenp.prettier-vscode"
      },
      "[jsonc]": {
@@ -10,5 +8,36 @@
      "editor.fontLigatures": true,
      "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
      "workbench.iconTheme": "material-icon-theme",
-     "terminal.integrated.rendererType": "dom"
+    "terminal.integrated.rendererType": "dom",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cmake.configureOnOpen": false,
+    "C_Cpp.workspaceParsingPriority": "low",
+    "nim.enableNimsuggest": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "bracketPairColorizer.activeScopeCSS": [
+
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
+    ],
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "window.zoomLevel": -1
 }
