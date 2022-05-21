@@ -47,3 +47,5 @@
 
 [fetch]
   prune = true
+[tag]
+	gpgSign = true
